@@ -1,0 +1,100 @@
+
+body {
+   height: 100vh;
+  margin:0;
+  
+  font-family:'Courier New', Courier, monospace sans-serif;
+
+  background-color: darkcyan;
+  
+}
+
+.title{
+  margin: 2px 2px 8px 2px;
+  color: white;
+}
+
+
+.hangImages{
+  display: flex;
+ align-items: center;
+}
+
+.hangImages img{
+  margin-left: 50px;
+  height: 200px;
+ 
+}
+
+.hiddenWord{
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  width:100%;
+  color: greenyellow;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+
+button{
+  width: 40px;
+  padding: 5px;
+  margin: 5px;
+
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+
+
+}
+
+.newGame{
+  width: 120px;
+  color: aqua;
+  background-color: palevioletred;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.lost h3{
+  color: red;
+  font-size: 20px;
+}
+
+
+.lost h3::before{
+  font-size: 20px;
+  content:"😪  ";
+}
+
+.lost h3::after{
+  font-size: 20px;
+  content:"  😪";
+}
+
+.won h3{
+  color: greenyellow;
+  font-size: 20px;
+}
+
+
+.won h3::before{
+  font-size: 20px;
+  content:"😛😎  ";
+}
+
+.won h3::after{
+  font-size: 20px;
+  content:"  😎🥱";
+}
